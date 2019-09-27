@@ -37,7 +37,7 @@
         static void Version1() {
             SingleResponsabilityPattern.Version1.EmployeeService employeeService = new SingleResponsabilityPattern.Version1.EmployeeService {
                 FirstName = "John",
-                LastName = "Deo"
+                LastName = "Doe"
             };
             employeeService.EmployeeRegistration(employeeService);
         }
